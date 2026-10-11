@@ -1,7 +1,21 @@
-# 🎓 EPITA Moodle Scraper & Générateur de Notes Markdown
+# 🎓 Moodle Everything Scraper & Générateur de Notes Markdown
 
-Outil d'extraction et de synchronisation complète des cours Moodle pour les étudiants de l'EPITA.  
+> **Conçu à l'origine pour l'EPITA, mais 100% universel et compatible avec N'IMPORTE QUELLE école ou université sous Moodle !**
+
+Outil d'extraction et de synchronisation complète des cours Moodle.  
 Il transforme l'intégralité de vos cours Moodle en un **environnement de travail hors-ligne en Markdown**, prêt pour la révision et la prise de notes dans **Obsidian**, **VS Code** ou **Typora**.
+
+---
+
+### 🌐 Compatibilité Universelle (Toute Université sous Moodle)
+Bien qu'optimisé avec des exemples et configurations par défaut pour l'EPITA (support de Forge ID SSO, Pod vidéo EPITA, etc.), ce scraper repose sur le cœur standard de **Moodle 3.x et Moodle 4.x**.
+
+**Il fonctionne avec n'importe quel établissement (Sorbonne, Paris-Saclay, Polytechnique, Centrale, Lyon, McGill, etc.) :**
+- Il vous suffit de remplacer l'URL par celle de votre Moodle (`URL=https://moodle.votre-etablissement.fr`).
+- Fonctionne avec tous les types d'authentification :
+  - **SSO / Ent / 2FA (Microsoft, Google, CAS, Shibboleth, SAML) :** via le cookie standard `MoodleSession`.
+  - **Token API WebService Moodle :** via `MOODLE_TOKEN` ou `--token`.
+  - **Identifiants classiques (Nom d'utilisateur + Mot de passe) :** via `MOODLE_USERNAME` et `MOODLE_PASSWORD` ou `-u` / `-p`.
 
 ---
 
