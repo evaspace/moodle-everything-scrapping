@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Data & Downloads
+EPITA_Moodle_Notes/
+state.json
+*.tmp
+*.log
+
+# Archives & original sources
+moodle-scraper-master.zip
+moodle-scraper-master/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+*.swp
